@@ -39,7 +39,7 @@
                                     <br>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Ir a la App / Cerrar
+                                        
                                     </button>
                                 </div>
                             </div>

@@ -20,15 +20,15 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Air Quality</a>
+                <a class="navbar-brand" href="/sitio/public/proyectos">Air Quality</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
+                    Menú
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Proyectos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Nosotros</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Acerca de</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#programs">Programas</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
                     </ul>
@@ -39,7 +39,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+                <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/airQuality.png" alt="Air Quality" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Air Quality</h1>
                 <!-- Icon Divider-->
@@ -49,7 +49,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Respirar aire puro es un derecho, no contaminarlo es un deber.</p>
+                <p class="masthead-subheading font-weight-light mb-0">Respirar aire puro es un derecho, no contaminarlo es un <strong>deber.</strong></p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -76,7 +76,7 @@
         <section class="page-section" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nosotros</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Acerca de</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -85,14 +85,14 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">La contaminación del aire es una mezcla de partículas y gases que pueden alcanzar concentraciones nocivas tanto en el exterior como en el interior. Sus efectos pueden ir desde un mayor riesgo de enfermedades hasta un aumento de las temperaturas. </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">En EE.UU., una medida de la contaminación del aire exterior es el Índice de Calidad del Aire, o ICA, que califica las condiciones del aire en todo el país basándose en las concentraciones de cinco contaminantes, principales: ozono troposférico, contaminación por partículas (o materia particulada), monóxido de carbono, dióxido de azufre y dióxido de nitrógeno. </p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead text-start">La contaminación del aire es una mezcla de partículas y gases que pueden alcanzar concentraciones nocivas tanto en el exterior como en el interior. Sus efectos pueden ir desde un mayor riesgo de enfermedades hasta un aumento de las temperaturas. El índice de calidad del aire (ICA) es un indicador que permite informar de la calidad del aire a la población de una manera clara, sencilla y unificada y fácilmente entendible por los ciudadanos. Además, el índice de calidad del aire, permite comparar la calidad del aire entre diferentes zonas, al tener criterios homogéneos que unifican su cálculo.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead text-end">Air Quality es un dispositivo que se compone de distintos sensores, conectado a Internet y es asistido por una aplicacion móvil que monitorea la calidad del aire, tomando en cuenta el índice del monóxido de carbono en que se encuentra, la humedad y temperatura, notificando al usuario las variaciones en tiempo real. Air Quality permite medir el índice de calidad del aire, para obtener un control efectivo de la contaminación y reducir efectos contraproducentes en la salud de los seres vivos.</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <a class="btn btn-xl btn-outline-light" href="">
                         <i class="fas fa-download me-2"></i>
-                        Free Download!
+                        Air Quality
                     </a>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <a class="btn btn-xl btn-outline-light" href="">
                         <i class="fas fa-download me-2"></i>
                         Air Quality
                     </a>
@@ -223,13 +223,21 @@
                             <a href="https://www.who.int/es/health-topics/air-pollution#tab=tab_1">Inicia el cambio</a>
                             .
                         </p>
+                        <br>
                     </div>
+                    <div class="back-top">
+                        <br>
+                    <a class="btn btn-secondary btn-sm" href="#page-top">Inicio</a>
+                    <br>
+                    </div>
+                    
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; 2023</small></div>
+            
         </div>
         <!-- Portfolio Modals-->
         
