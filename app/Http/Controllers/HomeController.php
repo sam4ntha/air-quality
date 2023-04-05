@@ -1,28 +1,13 @@
 <?php
-
+ 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public function users() // Método que se llama desde la ruta.
     {
-        $this->middleware('auth');
-    }
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-    public function index()
-    {
-        return view('home');
+        return view('userslist'); // Nos devuelve una vista
     }
 }
+?>

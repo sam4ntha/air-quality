@@ -39,7 +39,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/airQuality.png" alt="Air Quality" />
+                <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/logoOf.jpeg" alt="Air Quality" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Air Quality</h1>
                 <!-- Icon Divider-->
@@ -78,15 +78,15 @@
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Acerca de</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead text-start">La contaminación del aire es una mezcla de partículas y gases que pueden alcanzar concentraciones nocivas tanto en el exterior como en el interior. Sus efectos pueden ir desde un mayor riesgo de enfermedades hasta un aumento de las temperaturas. El índice de calidad del aire (ICA) es un indicador que permite informar de la calidad del aire a la población de una manera clara, sencilla y unificada y fácilmente entendible por los ciudadanos. Además, el índice de calidad del aire, permite comparar la calidad del aire entre diferentes zonas, al tener criterios homogéneos que unifican su cálculo.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead text-end">Air Quality es un dispositivo que se compone de distintos sensores, conectado a Internet y es asistido por una aplicacion móvil que monitorea la calidad del aire, tomando en cuenta el índice del monóxido de carbono en que se encuentra, la humedad y temperatura, notificando al usuario las variaciones en tiempo real. Air Quality permite medir el índice de calidad del aire, para obtener un control efectivo de la contaminación y reducir efectos contraproducentes en la salud de los seres vivos.</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">La contaminación del aire es una mezcla de partículas y gases que pueden alcanzar concentraciones nocivas tanto en el exterior como en el interior. Sus efectos pueden ir desde un mayor riesgo de enfermedades hasta un aumento de las temperaturas. El índice de calidad del aire (ICA) es un indicador que permite informar de la calidad del aire a la población de una manera clara, sencilla y unificada y fácilmente entendible por los ciudadanos. Además, el índice de calidad del aire, permite comparar la calidad del aire entre diferentes zonas, al tener criterios homogéneos que unifican su cálculo.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">Air Quality es un dispositivo que se compone de distintos sensores, conectado a Internet y es asistido por una aplicacion móvil que monitorea la calidad del aire, tomando en cuenta el índice del dióxido de carbono en que se encuentra, la humedad y temperatura, notificando al usuario las variaciones en tiempo real. Air Quality permite medir el índice de calidad del aire, para obtener un control efectivo de la contaminación y reducir efectos contraproducentes en la salud de los seres vivos.</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -111,7 +111,7 @@
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead">Sembrando vida</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Sembrando vida</p></div>
+                    <div class="col-lg-4 me-auto"><img src="" alt=""><p class="lead">Air Quality</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -127,7 +127,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
+                <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0">Comentarios</h4>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -137,59 +137,8 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Nombre completo</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Un nombre es requerido</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Correo electrónico</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Un correo es requerido</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Correo no válido</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Número de teléfono</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Un número de teléfono es requerido</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Mensaje</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Un mensaje es requerido</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar el mensaje!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
-                        </form>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -201,7 +150,7 @@
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Localización</h4>
-                        <p class="lead mb-0">
+                        <p class="lead mb-0 text-center">
                             UTT
                             <br />
                             Edificio P
@@ -217,7 +166,7 @@
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Equipo Air Quality</h4>
+                        <h4 class="text-uppercase text-center mb-4 ">Equipo Air Quality</h4>
                         <p class="lead mb-0">
                             Comprometidos con el cuidado del medio ambiente
                             <a href="https://www.who.int/es/health-topics/air-pollution#tab=tab_1">Inicia el cambio</a>
